@@ -1,7 +1,7 @@
 job('Job Actividad Docker') {
     description('Aplicacion para actividad de docker de hoy')
     scm {
-        git('https://github.com/juanmazonflo/nodejsapp.git', 'main') { node ->
+        git('https://github.com/juanmazonflo/jobdocker', 'main') { node ->
             node / gitConfigName('juanmazonflo')
             node / gitConfigEmail('juanitocapotillo@gmail.com')
         }
